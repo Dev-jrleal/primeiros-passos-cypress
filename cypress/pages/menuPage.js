@@ -10,6 +10,12 @@
             cy.get(this.selectorsList().myInfoButton).click()
         }
 
+        accessorPerformace() {
+            cy.get(this.selectorsList().performaceButton).click()
+        }
+
+        
+
 
     }
     export default MenuPage

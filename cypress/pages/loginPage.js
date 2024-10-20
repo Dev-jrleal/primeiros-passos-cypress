@@ -20,7 +20,8 @@ class LoginPage{
     }
 
     checkAccessInvalid() {
-        cy.get(this.selectorsList().wrongCredentialAlert) 
+        cy.get(this.selectorsList().wrongCredentialAlert)
+
     }
 
 }

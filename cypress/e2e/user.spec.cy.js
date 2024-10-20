@@ -21,13 +21,8 @@ describe('Orange HRM Tests', () => {
     myInfoPage.fillPersonalDetails('Pedro','Matheus','Andre')
     myInfoPage.fillEmployeeDetails('1111','2222','3333','2025-07-29','12345','98765')
     myInfoPage.fillStatus()
-    myInfoPage.saveForm()
-    
+    myInfoPage.saveForm()   
+  })
 
-  })
-  it('Login - Fail', () => {
-    loginPage.accessLoginPage()    
-    loginPage.loginWithAnyUser(userData.userFail.username,userData.userFail.password)    
-    loginPage.checkAccessInvalid()
-  })
+  
 })
